@@ -1,4 +1,4 @@
-# Circular Buffer
+# Ruby: Circular Buffer
 
 A data structure that uses a single, fixed-size buffer as if it were connected end-to-end.
 
@@ -45,6 +45,20 @@ buffer with:
 
     [ ][7][8][9][A][B][ ]
 
+The tests use the Minitest testing framework. To install it run the command:
+
+    gem install minitest
+
+Run the tests with the `ruby` command:
+
+    ruby circular_buffer_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
+
 ## Source
 
 Wikipedia [http://en.wikipedia.org/wiki/Circular_buffer](http://en.wikipedia.org/wiki/Circular_buffer)
@@ -53,3 +67,6 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
